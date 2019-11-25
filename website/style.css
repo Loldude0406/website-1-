@@ -3,10 +3,39 @@
 background-size: cover;}
 li a{
     display:block;
-    width:60px;
+    color:rgb(27, 68, 180);
+    text-align: center;
+    padding:5px 15px;
+    text-decoration: none;
+    font-size:25px
+    
+    
 }
+li
+ {float: left;}
 ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgb(12, 12, 12)
+}
+#armiesli{
+    border-right: 1px solid whitesmoke;
+    
+}
+#paintingli{
+    border-right: 1px solid whitesmoke;
+    
+}
+#beginningli:last-child{
+    border-right: none;
+}
+#frontp{
+    background-color:rgba(248, 19, 19, 0.479);
+    color:rgb(98, 148, 151);
+    width: 800px;
+    display:block;
+    float:left;
+    overflow:scroll;
 }

@@ -1,27 +1,40 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
 #background 
-{background-image: url("/website/plaatjes/frontpic.jpg");
-background-size: cover;}
+{background-image: url("/website/plaatjes/yeet.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:white;
+  position: relative;
+   }
+  
+
 li a{
     display:block;
-    color:rgb(27, 68, 180);
+    color:rgb(255, 255, 255);
     text-align: center;
-    padding:5px 15px;
+    padding:5px 15px rgb(202, 19, 19);
     text-decoration: none;
-    font-size:25px
-    
-    
+    font-size:25px;
+    margin:5px;    
 }
 li
  {float: left;}
 ul{
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin:5px;
+    padding:0px;
     overflow:hidden;
-    background-color:rgb(12, 12, 12)
+    background-color:rgb(12, 12, 12);
+    position:relative;
+    border:solid rgb(102, 17, 17);
+    
 }
 #armiesli{
-    border-right: 1px solid whitesmoke;
+    border-right: 1px solid rgb(255,255,255);
     
 }
 #paintingli{
@@ -30,12 +43,31 @@ ul{
 }
 #beginningli:last-child{
     border-right: none;
+    
+    
 }
-#frontp{
-    background-color:rgba(248, 19, 19, 0.479);
-    color:rgb(98, 148, 151);
-    width: 800px;
+.front1{
+    background-color:rgba(0,0,0,0.75);
+    color:white;
     display:block;
+    position:relative;
+    width:40%;
+    height:70%;
+    overflow:auto;
+    margin:50px;
+    border:solid rgb(102, 17, 17);
     float:left;
-    overflow:scroll;
 }
+.front2{
+    background-color:rgba(0,0,0,0.75);
+    color:white;
+    display:block;
+    position:relative;
+    width:40%;
+    height:70%;
+    overflow:auto;
+    margin:50px;
+    border:solid rgb(102, 17, 17);
+    float:center;
+}
+

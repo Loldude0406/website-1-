@@ -1,7 +1,14 @@
 *{
     padding:0px;
     margin:0px;
+}
 
+@font-face {
+  font-family:enchantedland;
+  src: url("font/EnchantedLand.otf");
+}
+*{
+    font-family:enchantedland;
 }
 #background 
 {background-image: url("/website/plaatjes/yeet.png");

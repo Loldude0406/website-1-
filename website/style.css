@@ -19,8 +19,8 @@
    }
   
 
-li a{
-    display:block;
+.nav1{
+    display:inline-block;
     color:rgb(255, 255, 255);
     text-align: center;
     padding:5px 15px rgb(202, 19, 19);
@@ -28,10 +28,14 @@ li a{
     font-size:25px;
     margin:5px;    
 }
-li
- {float: left;}
+.nav2{
+   display:block;
+   text-decoration:none;   
+}
+.linav
+ {float:left}
 ul{
-    list-style-type: none;
+    list-style-type:none;
     margin:5px;
     padding:0px;
     overflow:hidden;
@@ -42,19 +46,18 @@ ul{
 }
 #armiesli{
     border-right: 1px solid rgb(255,255,255);
-    
+    float:left;
 }
 #paintingli{
     border-right: 1px solid whitesmoke;
-    
+    float:left;
 }
 #beginningli:last-child{
     border-right: none;
-    
-    
+    float:left;
 }
 .front1{
-    background-color:rgba(0,0,0,0.75);
+    background-color:rgba(0,0,0,0.90);
     color:white;
     display:block;
     position:relative;
@@ -67,7 +70,7 @@ ul{
     font-size: 20px;
 }
 .front2{
-    background-color:rgba(0,0,0,0.75);
+    background-color:rgba(0,0,0,0.90);
     color:white;
     display:block;
     position:relative;
@@ -80,12 +83,32 @@ ul{
     font-size: 20px;
 }
 #armiesnav{
-    list-style-type: none;
-    margin:5px;
-    padding:0px;
-    overflow:hidden;
-    background-color:rgb(12, 12, 12);
+    list-style-type:none; 
     position:relative;
-    border:solid rgb(102, 17, 17)    
+    width:40%;
+    height:70%;
+    overflow:auto;
+    margin:50px;  
+}
+#moet{
+    background-color:rgba(0,0,0,0.95);
+    color:white;
+    display:block;
+    position:relative;
+    width:40%;
+    height:70%;
+    overflow:auto;
+    margin:50px;
+    border:solid rgb(102, 17, 17);
+    float:center;
+    font-size: 35px;
+}
+li a:hover {
+  background-color:rgb(12, 12, 12);
+  color: white;
+}
+.active {
+  background-color:rgb(12, 12, 12);
+  color: red;
 }
 

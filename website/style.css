@@ -10,12 +10,15 @@
 *{
     font-family:enchantedland;
 }
-#background 
-{background-image: url("/website/plaatjes/yeet.png");
+#background {
+  background-image: url("/website/plaatjes/yeet.png");
   background-size:cover;
   background-repeat:no-repeat;
   background-color:white;
   position: relative;
+  background-attachment:fixed; 
+  height:100%;
+  width:100%;
    }
   
 
@@ -30,7 +33,10 @@
 }
 .nav2{
    display:block;
-   text-decoration:none;   
+   text-decoration:none;  
+   color: rgb(255,255,255);
+   text-align: center;
+   font-size:30px;
 }
 .linav
  {float:left}
@@ -42,7 +48,12 @@ ul{
     background-color:rgb(12, 12, 12);
     position:relative;
     border:solid rgb(102, 17, 17);
-    
+    z-index: 3;
+   
+}
+#homeli{
+    border-right: 1px solid rgb(255,255,255);
+    float:left;
 }
 #armiesli{
     border-right: 1px solid rgb(255,255,255);
@@ -84,19 +95,15 @@ ul{
 }
 #armiesnav{
     list-style-type:none; 
-    position:relative;
-    width:40%;
-    height:70%;
+    position:center;
     overflow:auto;
-    margin:50px;  
+    margin:50px; 
 }
 #moet{
     background-color:rgba(0,0,0,0.95);
     color:white;
     display:block;
-    position:relative;
-    width:40%;
-    height:70%;
+    position:center;
     overflow:auto;
     margin:50px;
     border:solid rgb(102, 17, 17);
@@ -107,8 +114,17 @@ li a:hover {
   background-color:rgb(12, 12, 12);
   color: white;
 }
-.active {
+#active {
   background-color:rgb(12, 12, 12);
   color: red;
+  z-index:1;
 }
+.nav2li1{
+    border-bottom: 1px solid rgb(255,255,255)
+}
+li:last-child {
+  border-bottom: none;
+}
+
+
 

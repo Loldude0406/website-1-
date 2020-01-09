@@ -145,5 +145,30 @@ li a:hover {
     width:100%;
     height:100%;
 }
+#imperium{
+  float:right;
+  width:50%;
+  height:50%
+}
+#imperium2{
+  float:left;
+  width:50%;
+  height:50%
+}
+#xenos{
+  float:right;
+  width:50%;
+  height:50%
+}
+#xenos2{
+  float:left;
+  width:50%;
+  height:50%
+}
+#chaos{
+  float:center;
+  width:100%;
+  height:100%
+}
 
 
